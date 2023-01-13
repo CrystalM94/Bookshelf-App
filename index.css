@@ -1,0 +1,136 @@
+/* Here I am setting the background to my preferred style and using the imported font from
+google fonts. */
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: lightgray;
+    font-family: 'Comic Neue', cursive;
+    
+}
+
+/* Here I am making the header transparent due to style preferences. I learned glass morphism
+over break as well as went in depth with javascript. I have been trying to use glassmorphism techniques
+since I found out about them. You can see this throughout the rest of my CSS. */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(120, 120, 120, 0.3);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    width: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-radius: 8px;
+}
+
+/* Here I am setting all the buttons outside of the nav buttons to have a rounded border
+and color of light blue. */
+button {
+  border-radius: 8px;
+  background-color: lightblue;
+}
+
+/* Utilizing the font I imported from google fonts. */
+.wrapper {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Comic Neue', cursive;
+    margin: 100px;
+    
+}
+
+/* Glass morphsim effect implemented here */
+.book {
+    width: 320px;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: rgba(120, 120, 120, 0.3);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+  }
+  
+  /* Glass morphsim effect implemented here */
+  .book-title {
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: rgba(120, 120, 120, 0.3);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+  }
+  
+  /* Glass morphsim effect implemented here */
+  .book-author {
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: rgba(120, 120, 120, 0.3);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+  }
+  
+  /* Glass morphsim effect implemented here */
+  .book-language {
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: rgba(120, 120, 120, 0.3);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+  }
+  
+  /* Glass morphsim effect implemented here */
+  .book-subject {
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: rgba(120, 120, 120, 0.3);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+  }
+  
+.navlinks {
+    list-style: none;
+    
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0 20px;
+    
+}
+
+/* Here I gave the nav buttons a rounded border */
+.navlinks li a {
+  display: inline-block;
+  padding: 0 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: lightblue;
+  border-radius: 8px;
+}
+
+/* Here I am setting the background image to an image I obtained from unsplash.com which is a 
+royalty free image website. */
+.add-book-form {
+    background-image: url(https://images.unsplash.com/photo-1600431521340-491eca880813?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80);
+    margin: 100px;
+    height: 600px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.add-book-form label input {
+    justify-content: center;
+    align-items: center;
+}
